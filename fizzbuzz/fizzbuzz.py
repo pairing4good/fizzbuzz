@@ -2,11 +2,8 @@ import click
 import sys
 
 
-def is_positive_integer(n):
-    """Returns True if n is a positive integer"""
-
-
-    return False
+def is_positive_integer(value):
+    return value > 0
 
 
 def process(n):
