@@ -6,13 +6,13 @@ def is_positive_integer(value):
     return value > 0
 
 
-def process(n):
+def process(value):
     """Returns the string representation of integer n unless:
        - n is evenly divisible by 3 (returns 'Fizz')
        - n is evenly divisible by 5 (returns 'Buzz')
        - n is evenly divisible by both 3 and 5 (returns 'FizzBuzz')"""
 
-    return n.__str__()
+    return value.__str__()
 
 
 @click.command()
