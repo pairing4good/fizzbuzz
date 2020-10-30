@@ -5,16 +5,16 @@ from fizzbuzz import fizzbuzz
 class TestFizzbuzz(unittest.TestCase):
 
     def test_one(self):
-        self.assertEqual(fizzbuzz.process(1), str(1))
+        self.assertEqual(str(1), fizzbuzz.process(1))
 
     def test_fizz(self):
-        self.assertEqual(fizzbuzz.process(3), 'Fizz')
+        self.assertEqual('Fizz', fizzbuzz.process(3))
 
     def test_buzz(self):
-        self.assertEqual(fizzbuzz.process(5), 'Buzz')
+        self.assertEqual('Buzz', fizzbuzz.process(5))
 
     def test_fizzbuzz(self):
-        self.assertEqual(fizzbuzz.process(15), 'FizzBuzz')
+        self.assertEqual('FizzBuzz', fizzbuzz.process(15))
 
 
 class TestInput(unittest.TestCase):
