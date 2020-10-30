@@ -7,16 +7,15 @@ def is_positive_integer(value):
 
 
 def process(value):
-    if value % 3 == 0 and value % 5 == 0:
-        return "FizzBuzz"
+    output = ''
 
     if value % 3 == 0:
-        return "Fizz"
+        output += "Fizz"
 
     if value % 5 == 0:
-        return "Buzz"
+        output += "Buzz"
 
-    return value.__str__()
+    return value.__str__() if len(output) == 0 else output
 
 
 @click.command()
