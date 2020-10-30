@@ -12,7 +12,7 @@ def process(n):
        - n is evenly divisible by 5 (returns 'Buzz')
        - n is evenly divisible by both 3 and 5 (returns 'FizzBuzz')"""
 
-    return '1'
+    return n.__str__()
 
 
 @click.command()
