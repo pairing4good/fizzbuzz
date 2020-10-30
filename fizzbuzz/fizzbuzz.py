@@ -7,6 +7,8 @@ def is_positive_integer(value):
 
 
 def process(value):
+    if value % 3 == 0:
+        return "Fizz"
     """Returns the string representation of integer n unless:
        - n is evenly divisible by 3 (returns 'Fizz')
        - n is evenly divisible by 5 (returns 'Buzz')
