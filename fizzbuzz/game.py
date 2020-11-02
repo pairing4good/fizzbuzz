@@ -1,6 +1,8 @@
 import click
 import sys
-from .fizzbuzz import is_positive_integer, process
+
+from .number_util import is_positive_integer
+from .fizzbuzz import process
 
 
 @click.command()

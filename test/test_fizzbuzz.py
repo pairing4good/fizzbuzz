@@ -1,5 +1,6 @@
 import unittest
 from fizzbuzz import fizzbuzz
+from fizzbuzz import number_util
 
 
 class TestFizzbuzz(unittest.TestCase):
@@ -18,14 +19,6 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_fizzbuzz(self):
         self.assertEqual('FizzBuzz', fizzbuzz.process(15))
-
-
-class TestInput(unittest.TestCase):
-
-    def test_valid_input(self):
-        self.assertTrue(fizzbuzz.is_positive_integer(1))
-        self.assertFalse(fizzbuzz.is_positive_integer(0))
-        self.assertFalse(fizzbuzz.is_positive_integer(-1))
 
 
 if __name__ == '__main__':

@@ -1,7 +1,3 @@
-def is_positive_integer(value):
-    return value > 0
-
-
 def process(value):
     output = ''
 
