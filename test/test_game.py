@@ -36,7 +36,3 @@ class TestGame(unittest.TestCase):
         self.assertEqual("13", results[12])
         self.assertEqual("14", results[13])
         self.assertEqual("FizzBuzz", results[14])
-
-
-if __name__ == '__main__':
-    unittest.main()

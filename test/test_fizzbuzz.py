@@ -18,7 +18,3 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_fizzbuzz(self):
         self.assertEqual('FizzBuzz', fizz_buzz.process(15))
-
-
-if __name__ == '__main__':
-    unittest.main()

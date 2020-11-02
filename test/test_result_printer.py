@@ -12,7 +12,3 @@ class TestResultPrinter(unittest.TestCase):
             result_printer.print_all(values)
 
         self.assertEqual("first\nsecond\nthird\n", fake_stdout.getvalue())
-
-
-if __name__ == '__main__':
-    unittest.main()

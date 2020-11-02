@@ -8,7 +8,3 @@ class TestInput(unittest.TestCase):
         self.assertTrue(number_util.is_positive_integer(1))
         self.assertFalse(number_util.is_positive_integer(0))
         self.assertFalse(number_util.is_positive_integer(-1))
-
-
-if __name__ == '__main__':
-    unittest.main()
