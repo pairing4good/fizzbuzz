@@ -1,6 +1,5 @@
 import unittest
-
-from fizzbuzz import number_util
+import number_util
 
 
 class TestInput(unittest.TestCase):

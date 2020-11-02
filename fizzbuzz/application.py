@@ -1,15 +1,13 @@
 import click
-
 import game
+import result_printer
 
 
 @click.command()
 @click.option('-n', default=100, help='A positive integer')
 def main(n):
     results = game.play(n)
-
-    for result in results:
-        print(result)
+    result_printer.print_all(results)
 
 
 if __name__ == '__main__':
