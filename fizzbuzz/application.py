@@ -1,6 +1,6 @@
 import click
-import game
-import result_printer
+from fizzbuzz import game
+from fizzbuzz import result_printer
 
 
 @click.command()

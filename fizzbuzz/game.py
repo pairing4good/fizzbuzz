@@ -1,5 +1,5 @@
-import fizz_buzz
-import number_util
+from fizzbuzz import fizz_buzz
+from fizzbuzz import number_util
 
 
 def play(n):
