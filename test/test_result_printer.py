@@ -1,7 +1,7 @@
 import io
 import unittest
 from unittest import mock
-import result_printer
+from fizzbuzz import result_printer
 
 
 class TestResultPrinter(unittest.TestCase):

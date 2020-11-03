@@ -1,5 +1,5 @@
 import unittest
-import game
+from fizzbuzz import game
 
 
 class TestGame(unittest.TestCase):
